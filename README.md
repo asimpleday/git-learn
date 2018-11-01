@@ -1,2 +1,2 @@
 # git-demo
-learn git
+把基本的git操作命令纪录一下，以后不懂时查看。
