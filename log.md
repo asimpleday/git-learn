@@ -15,5 +15,5 @@ git log --oneline
 ```
 # 以图形的方式打印 commit 信息
 
-git log –pretty=format:’%h %ad | %s%d’ –graph –date=short
+git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 ```
