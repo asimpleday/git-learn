@@ -32,6 +32,10 @@ git push -u origin master
 git push --force origin
 
 # 以上命令会把远程仓库覆盖
+
+# 如果当前分支只有一个追踪关系，那么主机名当然可以省略
+
+git push -f
 ```
 
 
