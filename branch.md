@@ -49,3 +49,10 @@ git branch -d [oldBranchName]
 git merge [branchName]
 git branch -d [branchName]
 ```
+
+```
+# 删除远端分支
+
+git push origin :dev
+```
+
