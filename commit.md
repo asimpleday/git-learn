@@ -12,4 +12,8 @@ git commit -m "message"
 
 git commit -am "message"
 
+# 或者
+
+git commit -a -m "message"
+
 ```
