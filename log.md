@@ -16,6 +16,10 @@ git log --oneline
 # 以图形的方式打印 commit 信息
 
 git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --all
+
+# 这个也好用，彩色的
+
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short
 ```
 
 ```
