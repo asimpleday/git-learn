@@ -24,3 +24,9 @@ git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --all
 git log --all --oneline --graph
 ```
 
+```
+# 查看前5条commit信息
+
+git log -5
+```
+
